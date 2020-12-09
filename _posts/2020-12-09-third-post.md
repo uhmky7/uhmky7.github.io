@@ -1,5 +1,5 @@
 ---
-title: "github.io 블로그 시작하기 3" {{ page.title }}
+title: "github.io 블로그 시작하기 3"
 excerpt: "Github Blog 서비스인 github.io 블로그 시작하기로 했다."
 categories:
     - Blog
