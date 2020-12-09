@@ -5,7 +5,8 @@ categories:
     - Blog
 tags:
     - Blog
-last_modified at: {{ page.last_modified_at }}
+last_modified_at: Insert DateTime
+
 ---
 
 GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
