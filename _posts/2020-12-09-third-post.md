@@ -5,7 +5,7 @@ categories:
     - Blog
 tags:
     - Blog
-last_modified_at: Insert DateTime
+last_modified_at: "insertDateString.format": "YYYY-MM-DD hh:mm:ss"
 
 ---
 
