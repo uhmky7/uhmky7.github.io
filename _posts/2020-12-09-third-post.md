@@ -5,8 +5,7 @@ categories:
     - Blog
 tags:
     - Blog
-last_modified_at: "insertDateString.format": "YYYY-MM-DD hh:mm:ss"
-
+last_modified_at: 2020-12-10 02:21:41
 ---
 
 GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
