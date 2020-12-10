@@ -1,5 +1,5 @@
 ---
-Title :  "지지자를 파블로프의 개로 만든 여권…檢개혁, 야바위판 됐다"
+Title :  "My verbose Page"
 
 
 ---
