@@ -15,11 +15,13 @@ html {
   }
 
   @include breakpoint($large) {
-    font-size: 20px;
+    /* uhmky7 : large 페이지 일때 폰드 사이즈 축소 20px ->18px */
+    font-size: 18px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 22px;
+    /* uhmky7 : x-large 페이지 일때 폰트 사이즈 축소 22px -> 20px */
+    font-size: 20px;
   }
 
   -webkit-text-size-adjust: 100%;
