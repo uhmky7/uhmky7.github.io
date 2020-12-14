@@ -24,9 +24,9 @@ description              : "나무병원의 홈페이지입니다."  # An amazin
 url                      : "https://bisultree.com" # "https://uhmky7.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "uhmky7/uhmky7.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/uhm-vflower.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/uhm-fungus.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : "/assets/images/site-teaser.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/site-logo.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "안녕하세요 masthead title" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -51,8 +51,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "비술나무병원"
-  avatar           : "/assets/images/uhmArbo3.jpg"
+  avatar           : "/assets/images/uhm-author1.jpg"
   bio              : "나무병원입니다.  **방제, 수형조절, 나무보호** 등의 업무를 수행합니다"
   location         : "경기도 용인"
   email            :
