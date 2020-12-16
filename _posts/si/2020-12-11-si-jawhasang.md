@@ -4,8 +4,8 @@ excerpt: "윤동주 시인의 작품 모음 - 자화상"
 header:  
   teaser: /assets/images/yoondongju-teaser.jpg  
   
-cagegory: # categories:  
-  - 윤동주  
+categories: # categories:  
+  - Poem 
 tags:  
   - 자화상    
   - 윤동주  

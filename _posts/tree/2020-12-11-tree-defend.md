@@ -2,7 +2,7 @@
 title: "식물의 방어전략 - 정부희"
 excerpt: "정부희 곤충기 - 식물의 방어전략"
 categories:
-  - jung
+  - Tree
 tags:
   - 식물
   - 정부희
