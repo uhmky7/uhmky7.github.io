@@ -5,6 +5,8 @@ categories:
     - Blog
 tags:
     - Blog
+header:
+   image: /assets/images/headerimage/goldenwave.jpg    
 last_modified_at: 2020-12-10 02:21:41
 ---
 
