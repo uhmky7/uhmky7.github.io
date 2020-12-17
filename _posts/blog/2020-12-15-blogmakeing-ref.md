@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
 sidebar_main : true
-author_profile : false
+author_profile : true
 show_date: false
 classes: wide
 header:
