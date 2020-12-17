@@ -12,6 +12,7 @@ toc_label: "페이지 주요 목차"
 sidebar_main : true
 author_profile : false
 show_date: false
+classes: wide
 header:
    # image: /assets/images/headerimage/greentreebird.jpg
    overlay_image: /assets/images/headerimage/greentreebird.jpg
