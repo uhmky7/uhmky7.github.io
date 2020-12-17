@@ -2,6 +2,7 @@
 title: "이 블로그 설명서"
 permalink: /about/
 layout: single
+sidebar_main: true
 ---
 
 ## bisultree.com 홈피

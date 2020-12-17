@@ -1,14 +1,16 @@
 # main links
 main:
-  - title: "블로그 방문하기" # - title: "Sample Posts"  
-    url: https://bisultree.tistory.com #   url: /year-archive/  
-  - title: "Quick-Start Guide"  
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/  
   - title: "About" # - title: "About"  
     url: /about/ #   url: https://mmistakes.github.io/minimal-mistakes/about/  
-  - title: "Categories"  
-    url: /categories/  
-    # - title: "Sample Collections"  
+  - title: "자료 블로그" # - title: "Sample Posts"  
+    url: https://bisultree.tistory.com #   url: /year-archive/  
+  - title: "공고 사항"  
+    url: /notice/  
+  - title: "Tags"      
+    url: /tags/  
+  # - title: "Quick-Start Guide"  
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/  
+  # - title: "Sample Collections"  
   #   url: /collection-archive/  
   # - title: "Sitemap"  
   #   url: /sitemap/  
