@@ -9,7 +9,9 @@ tags:
   - 민주주의  
 toc: true  
 toc_sticky: true  
-toc_label: "페이지 주요 목차"  
+toc_label: "페이지 주요 목차"
+header:  
+  teaser: /assets/images/teaser/qibaishi.jpg
 ---  
 
 

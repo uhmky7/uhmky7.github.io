@@ -1,7 +1,9 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% include category-tag-list.html %}
+  {% if page.sidebar_main %}
+  {% include nav_list_main %}
+  {% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
@@ -20,3 +22,8 @@
 {% endif %}  
 
 
+
+
+{% if page.sidebar_PE %}
+{% include nav_list_PE %}
+{% endif %}

@@ -10,6 +10,8 @@ tags:
 toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
+header:  
+  teaser: /assets/images/teaser/qibaishi.jpg
 ---
 
 ## 검찰개혁, 왜 지록위마의 야바위판이 됐나

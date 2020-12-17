@@ -19,6 +19,7 @@ header:
    overlay_color: "#180"
    # overlay_filter: 0.5  # rgba(255, 0, 0, 0.5)
    caption: "Photo credit: [**비술나무병원**](https://bisultree.com)"
+   teaser: /assets/images/teaser/funnyelephant.jpg
    last_modified_at: 2020-12-10 20:40:23
 ---
 
@@ -91,8 +92,32 @@ header:
 [Jooz github source](https://github.com/joojaeyoon/jooz.dev){: .btn .btn--info}  
 
 
+#### 5.2 Subinium 방식 Sidebar 달기
 
 
+[sidebar_main](https://subinium.github.io/ProjectEuler-Sidebar/){: .btn .btn--info}
+
+```
+---
+title : "Beginner Guide : Missing Data Handling"
+category :
+  - ML
+tag :
+  - Missing Data
+  - imputation
+  - Deletion
+  - 손실값
+  - 누락값
+  - 핸들링
+sidebar_main : true
+author_profile : true
+use_math : true
+header:
+  overlay_image : https://images.unsplash.com/photo-1527474305487-b87b222841cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80
+  overlay_filter: 0.5
+published : true
+---
+```
 
 
 
