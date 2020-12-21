@@ -15,8 +15,8 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "비술나무병원 (株)"
+locale                   : "ko-KR"  # "en-US"
+title                    : "(株) 비술나무병원"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "비술나무병원" # Your Name
@@ -27,7 +27,7 @@ repository               : "uhmky7/uhmky7.github.io" # GitHub username/repo-name
 teaser                   : "/assets/images/site-teaser.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/site-logo.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "BISULTREE" # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -138,8 +138,8 @@ footer:
     # - label: "Bitbucket"
       # icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    # - label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
       # url:
 
 
@@ -267,11 +267,26 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections_dir: my_collections
 collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  pets:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
+  product:
+    output: true
+    permalink: /:collection/:path/
 
+  
 
 # Defaults
 defaults:
@@ -288,7 +303,7 @@ defaults:
       share: true
       related: true
       toc: true  
-      toc-sticky: true
+      toc_sticky: true
   
   # _pages
   - scope:
@@ -301,12 +316,50 @@ defaults:
       comments: false
       share: true
       related: false
-
-  # _portfolio
+  # _docs
   - scope:
-      path: ""
-      type: portfolio
+      path: "_docs"
+      type: docs
     values:
-      layout: portfolio-single
+      layout: single
+      read_time: false
       author_profile: false
       share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _pets
+  - scope:
+      path: "_pets"
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _portfolio
+  - scope:
+      path: "_portfolio"
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+ # _product
+  - scope:
+      path: "_product"
+      type: product
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
