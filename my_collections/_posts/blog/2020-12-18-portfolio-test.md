@@ -9,7 +9,7 @@ toc_label: "페이지 주요 목차"
 categories:  
    - Blog  
 tags:  
-   - portfolio  
+   - Portfolio  
 ---  
   
 
